@@ -1,0 +1,6 @@
+en:
+  welcome: "Welcome to your loan calculator."
+  apr: "Please enter a annual percentage rate (APR) %"
+  loan_duration: "Please enter loan duration in months"
+  repeat: "Do you want to perform another calcuation? (Y to calculate again)"
+  loan_amount: "Please enter loan amount"
