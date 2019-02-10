@@ -25,4 +25,4 @@ elsif operator == '4'
   result = number1.to_f() / number2.to_f()
 end
 
-Kernel.puts("The result is #{result}")
+Kernel.puts("The result is #{result}") 

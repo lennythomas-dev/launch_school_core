@@ -1,13 +1,13 @@
+require "pry"
 VALID_CHOICES = %w(rock paper scissors)
 def prompt(message)
   Kernel.puts("=> #{message}")
 end
 
 def win?(first, second)
-  if (first == 'rock' && second == 'scissors') ||
+  (first == 'rock' && second == 'scissors') ||
     (first == 'paper' && second == 'rock') ||
     (first == 'scissors' && second == 'paper')
-  end
 end
 
 def display_result(player, computer)
