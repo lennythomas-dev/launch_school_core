@@ -7,7 +7,8 @@
 # data structure : Numeric - integer, covert to string ?? , return integer
 
 def sum(digits)
-  return %w(digits.to_s.to_i).sum
+  array_nums =  digits.to_s.split('').map { |x| x.to_i }
+  array_nums.sum
 end
 
 puts sum(23)
