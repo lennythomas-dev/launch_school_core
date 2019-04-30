@@ -13,9 +13,11 @@ NUMERIC_STRINGS = { '1' => 1, '2' => 2, '3' => 3, '4' => 4, '5' => 5, '6' => 6, 
 
 def string_to_integer(str)
   numeric_array = []
+  
   str.split('').each do |number|
     numeric_array << NUMERIC_STRINGS[number]
   end
+
   numeric_array.inject{|a, i| a*10 + i}
 end
 
